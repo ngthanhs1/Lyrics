@@ -13,22 +13,20 @@ def animate_text(text, speed=0.1):
 
 def sing_song():
     lyrics = [
-        ("🎧Anh có nỗi sợ", 0.07, 0.5),
-        ("Sợ ta mất nhau", 0.15, 1.2),
-        ("Tình yêu bắt đầu", 0.07, 2.0),
-        ("Không phải để tìm nỗi đau", 0.07, 2.8),
-        ("Sợ giây phút này", 0.07, 4.3),
-        ("Chẳng còn", 0.06, 5.0),
-        ("thấy em bên anh", 0.08, 5.7),
-        ("về sau...", 0.06, 6.3),
-        ("Nhiều khi nóng giận", 0.09, 7.0),
-        ("Nhiều khi cãi nhau       ", 0.15, 8.0),
-        ("Để rồi cuối cùng", 0.05, 9.0),
-        ("Ta lại trở về với nhau", 0.09, 10.0),
-        ("Đôi tay này cần ", 0.01, 11.0),
-        ("nâng niu", 0.15, 12.0),
-        ("Vì em là người", 0.07, 13.0),
-        (" anh yêu...", 0.07, 14.0)
+        ("🎧Anh có nỗi sợ", 0.108, 0.5),
+        ("Sợ ta mất nhau", 0.148, 1.2),
+        ("Tình yêu bắt đầu", 0.09, 3.0),
+        ("Không phải để tìm nỗi đau", 0.12, 3.7),
+        ("Sợ giây phút này", 0.12, 4.0),
+        ("Chẳng còn", 0.04, 1.0),
+        ("thấy em bên anh về sau", 0.176, 8.1),
+        ("Nhiều khi nóng giận", 0.1, 16.1),
+        ("Nhiều khi cãi nhau       ", 0.13, 8.9),
+        ("Để rồi cuối cùng", 0.12, 8.7),
+        ("Ta lại trở về với nhau", 0.1, 11.0),
+        ("Đôi tay này cần ", 0.114, 11.0),
+        ("nâng niu", 0.17, 12.0),
+        ("Vì em là người anh yêu...", 0.18, 29.0)
     ]
 
     t0 = time.perf_counter()
