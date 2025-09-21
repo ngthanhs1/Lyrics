@@ -2,9 +2,9 @@ import time
 import sys
 
 def animate_text(text, speed=0.1):
-    YELLOW = '\033[33m'
+    GOLD = '\033[38;5;220m'
     RESET = '\033[0m'
-    sys.stdout.write(YELLOW)
+    sys.stdout.write(GOLD)
     for ch in text:
         sys.stdout.write(ch)
         sys.stdout.flush()
@@ -13,7 +13,7 @@ def animate_text(text, speed=0.1):
 
 def sing_song():
     lyrics = [
-        ("🎧 Nói thế thôi chứ", 0.089, 0.5),  
+        ("👑 Nói thế thôi chứ", 0.089, 0.5),  
         ("Flop quá thì cứ ghi tên anh vào!", 0.074, 1.24),
         ("Bao lâu bao lâu bao nhiêu lâu rồi...", 0.059, 5.1),
         ("Tên anh nằm trên đỉnh cao bao nhiêu lâu rồi", 0.068, 3.81),
@@ -25,7 +25,7 @@ def sing_song():
         ("Chỉ thế là nhanh", 0.058, 0.47),
         ("Bước hết vào đây", 0.074, 5.1),
         ("Tấp hết vào đây ", 0.064, 1.0),
-        ("Làm sao cưng ngăn được ý trời đây", 0.069, 4.9),
+        ("Làm sao cưng ngăn được ý trời đây...", 0.069, 4.9),
     ]
 
     t0 = time.perf_counter()
